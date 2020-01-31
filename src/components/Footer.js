@@ -5,7 +5,7 @@ import { Content } from './Layout';
 import { media } from '../MediaQueries';
 
 const FooterWrapper = styled.div`
-  background: ${Colors.darkest};
+  background: #3F3D56;
   color: ${Colors.white};
   padding: ${props => (props.big ? '210px' : props.medium ? '100px' : '80px')} 0 60px 0;
   ${media.tablet`padding: ${props => (props.big ? '150px' : props.medium ? '100px' : '128px')} 20px 50px 20px;`}
