@@ -7,8 +7,8 @@ import Dex from '../images/dex.jpg';
 import Museumly from '../images/museumly.jpg';
 import MockEtsy from '../images/mocketsy.jpg';
 import FriendTrips from '../images/friendtrips.jpg';
-import Dev from '../images/undraw_dev_focus_b9xo.svg'
-import Resume from '../../public/static/BrookeSnellingsResume.pdf';
+import Dev from '../images/undraw_dev_focus_b9xo.svg';
+import Resume from '../assets/BrookeSnellingsResume.pdf';
 import { HireMe, LinkButton } from '../components/Button.js';
 import HireMePopup from '../components/HireMePopup.js';
 import { media } from '../MediaQueries';
@@ -158,14 +158,14 @@ class Homepage extends React.Component {
               Hello, my name is Brooke. I am a Software Engineer living in Austin, TX.
             </t.H1>
             <t.LargeP align="center" max45>
-              I’m passionate about building beautiful, intuitive web applications through thoughtfully crafted code & user-centered design.           </t.LargeP>
+              I’m passionate about building beautiful, intuitive web applications through thoughtfully crafted code &
+              user-centered design.{' '}
+            </t.LargeP>
             <HireMe large onClick={this.openContactPopup} book>
               Hire me
             </HireMe>
           </AboveFold>
           <Content>
-
-
             <BlockContent>
               <DivWrapper>
                 <ItemImage src={Dev} alt="Dev Illustration" />
@@ -173,21 +173,28 @@ class Homepage extends React.Component {
               <DivWrapper>
                 <t.H2 primary align="center" bold>
                   Who Am I?
-            </t.H2>
+                </t.H2>
                 <t.P align="left" max70 className="who-desc">
-                  I am a full stack software engineer experienced in developing applications using modern JavaScript, React, Node.js, Express, MySQL, PostgreSQL, and MongoDB. I have used Agile methodology in all phases of product development, from planning and designing, to implementing, testing, and deployment. I enjoy learning new technologies, tools, and frameworks to keep up with the ever-evolving nature of the modern web.
-                  I am currently seeking opportunities to join a diverse team of engineers who strive to build efficient and accessible software that solves problems for end users, while adding ease and value to their lives.
-            </t.P>
-                <t.P primary align="center"> <HireMe as="a" href={Resume} target="_blank" rel="noopener noreferrer">Download My Resume</HireMe></t.P>
+                  I am a full stack software engineer experienced in developing applications using modern JavaScript,
+                  React, Node.js, Express, MySQL, PostgreSQL, and MongoDB. I have used Agile methodology in all phases
+                  of product development, from planning and designing, to implementing, testing, and deployment. I enjoy
+                  learning new technologies, tools, and frameworks to keep up with the ever-evolving nature of the
+                  modern web. I am currently seeking opportunities to join a diverse team of engineers who strive to
+                  build efficient and accessible software that solves problems for end users, while adding ease and
+                  value to their lives.
+                </t.P>
+                <t.P primary align="center">
+                  {' '}
+                  <HireMe as="a" href={Resume} target="_blank" rel="noopener noreferrer">
+                    Download My Resume
+                  </HireMe>
+                </t.P>
               </DivWrapper>
-
             </BlockContent>
-
 
             <t.H2 primary align="center" bold className="portfolio">
               Portfolio
             </t.H2>
-
           </Content>
           <Block>
             <BlockContent>
@@ -197,10 +204,18 @@ class Homepage extends React.Component {
               <DivWrapper>
                 <t.H2 bold>Dex</t.H2>
                 <t.P>Project management software utilizing monolithic architecture to simulate Trello</t.P>
-                <t.P>Tech Stack: JavaScript / React with Hooks / React-Router / Bootstrap / Figma / Express / PostgreSQL / TravisCI / Jest / Docker / AWS EC2</t.P>
-                <LinkButton primary bold className="link" as="a"
+                <t.P>
+                  Tech Stack: JavaScript / React with Hooks / React-Router / Bootstrap / Figma / Express / PostgreSQL /
+                  TravisCI / Jest / Docker / AWS EC2
+                </t.P>
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
                   target="_blank"
-                  href="https://github.com/hratx-blue-ocean/hratx42-Dex">
+                  href="https://github.com/hratx-blue-ocean/hratx42-Dex"
+                >
                   View on GitHub
                 </LinkButton>
               </DivWrapper>
@@ -210,11 +225,22 @@ class Homepage extends React.Component {
             <BlockContent>
               <DivWrapper>
                 <t.H2 bold>Museumly</t.H2>
-                <t.P>App that allows users to explore museum artwork from the Metropolitan Museum of Art and Harvard Art Museums APIs and curate their own collection</t.P>
-                <t.P>Tech Stack: JavaScript / React with Hooks / React-Router / React-Bootstrap / Node.js / Express / Axios / MySQL / Heroku</t.P>
-                <LinkButton primary bold className="link" as="a"
+                <t.P>
+                  App that allows users to explore museum artwork from the Metropolitan Museum of Art and Harvard Art
+                  Museums APIs and curate their own collection
+                </t.P>
+                <t.P>
+                  Tech Stack: JavaScript / React with Hooks / React-Router / React-Bootstrap / Node.js / Express / Axios
+                  / MySQL / Heroku
+                </t.P>
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
                   target="_blank"
-                  href="https://github.com/brookesnellings/Museumly">
+                  href="https://github.com/brookesnellings/Museumly"
+                >
                   View on GitHub
                 </LinkButton>
               </DivWrapper>
@@ -231,10 +257,18 @@ class Homepage extends React.Component {
               <DivWrapper>
                 <t.H2 bold>MockEtsy</t.H2>
                 <t.P>Full stack e-commerce clone using service-oriented architecture </t.P>
-                <t.P>Tech Stack: JavaScript / React / React-Bootstrap / Node.js / Express / MySQL / Knex.js / Docker / AWS Elastic Beanstalk & RDS</t.P>
-                <LinkButton primary bold className="link" as="a"
+                <t.P>
+                  Tech Stack: JavaScript / React / React-Bootstrap / Node.js / Express / MySQL / Knex.js / Docker / AWS
+                  Elastic Beanstalk & RDS
+                </t.P>
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
                   target="_blank"
-                  href="https://github.com/mock-etsy/Item-Details-Microservice">
+                  href="https://github.com/mock-etsy/Item-Details-Microservice"
+                >
                   View on GitHub
                 </LinkButton>
               </DivWrapper>
@@ -244,11 +278,21 @@ class Homepage extends React.Component {
             <BlockContent>
               <DivWrapper>
                 <t.H2 bold>FriendTrips</t.H2>
-                <t.P>An app to help groups of friends find affordable flights using the Skyscanner API. It was designed and built within two days as an entry in the Women Who Code Diversity Hackathon.</t.P>
-                <t.P>Tech Stack: JavaScript / React / Material UI / Node.js / Express / Axios / Docker / AWS EC2 / NGINX</t.P>
-                <LinkButton primary bold className="link" as="a"
+                <t.P>
+                  An app to help groups of friends find affordable flights using the Skyscanner API. It was designed and
+                  built within two days as an entry in the Women Who Code Diversity Hackathon.
+                </t.P>
+                <t.P>
+                  Tech Stack: JavaScript / React / Material UI / Node.js / Express / Axios / Docker / AWS EC2 / NGINX
+                </t.P>
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
                   target="_blank"
-                  href="https://github.com/friendtrips/diversity">
+                  href="https://github.com/friendtrips/diversity"
+                >
                   View on GitHub
                 </LinkButton>
               </DivWrapper>
@@ -259,9 +303,7 @@ class Homepage extends React.Component {
           </Block>
           <WorkWithMe>
             <t.H1 green>Get in touch with me</t.H1>
-            <t.LargeP>
-              Hiring? Let's chat{' '}
-            </t.LargeP>
+            <t.LargeP>Hiring? Let's chat </t.LargeP>
             <HireMe onClick={this.openContactPopup} book>
               Contact me
             </HireMe>
