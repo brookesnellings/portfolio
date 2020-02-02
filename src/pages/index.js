@@ -184,7 +184,6 @@ class Homepage extends React.Component {
                   value to their lives.
                 </t.P>
                 <t.P primary align="center">
-                  {' '}
                   <HireMe as="a" href={Resume} target="_blank" rel="noopener noreferrer">
                     Download My Resume
                   </HireMe>
