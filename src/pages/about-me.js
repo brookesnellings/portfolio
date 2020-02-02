@@ -89,12 +89,26 @@ class AboutMe extends React.Component {
               Software Engineer. Design Thinker. Problem Solver.
             </t.H1>
             <t.LargeP align="center" max70>
-              <p> Most recently, I was a Software Engineer on the instructional staff for Hack Reactor at Galvanize in Austin, a modern school providing advanced technical training in an immersive setting. I graduated from the University of Florida with a B.S. in Psychology, and my background is in the arts and nonprofits, specifically theatre, mental health awareness advocacy, newborn adoption, and animal rescue. I loved making a positive impact while delivering high-quality and compassionate service to clients, and found I thrive when breaking down complex problems to arrive at creative, elegant solutions.
-              I was drawn to programming as a way to make life better for people. Technology is ingrained in our daily lives, and I am passionate about building thoughtfully designed and executed applications that create rich and joyful user experiences for everyone. </p>
               <p>
-                When I'm not coding, I like to volunteer my time as one of the organizers of the Hack Reactor Women's Mentorship Program, an amazing and important effort to support and encourage women as they transition into careers in tech. I am an abstract painter, and you can sometimes find me at the Blanton Museum of Art getting inspired by one of my favorite paintings, Joan Mitchell's "Rock Bottom". I'm also an avid reader, record collector, film lover, and (most importantly, of course) cat mom to Archie, the most dog like cat you will ever meet.
+                {' '}
+                Most recently, I was a Software Engineer on the instructional staff for Hack Reactor at Galvanize in
+                Austin, a modern school providing advanced technical training in an immersive setting. I graduated from
+                the University of Florida with a B.S. in Psychology in 2014, and my background is in the arts and
+                nonprofits, specifically theatre, mental health awareness advocacy, newborn adoption, and animal rescue.
+                I loved making a positive impact while delivering high-quality and compassionate service to clients, and
+                found I thrive when breaking down complex problems to arrive at creative, elegant solutions. I was drawn
+                to programming as a way to make life better for people. Technology is ingrained in our daily lives, and
+                I am passionate about building thoughtfully designed and executed applications that create rich and
+                joyful user experiences for everyone.{' '}
               </p>
-
+              <p>
+                When I'm not coding, I like to volunteer my time as one of the organizers of the Hack Reactor Women's
+                Mentorship Program, an amazing and important effort to support and encourage women as they transition
+                into careers in tech. I am an abstract painter, and you can sometimes find me at the Blanton Museum of
+                Art getting inspired by one of my favorite paintings, Joan Mitchell's "Rock Bottom". I'm also an avid
+                reader, record collector, film lover, and (most importantly, of course) cat mom to Archie, the most dog
+                like cat you will ever meet.
+              </p>
             </t.LargeP>
           </AboveFold>
           <Content>
