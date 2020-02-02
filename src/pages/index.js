@@ -8,7 +8,7 @@ import Museumly from '../images/museumly.jpg';
 import MockEtsy from '../images/mocketsy.jpg';
 import FriendTrips from '../images/friendtrips.jpg';
 import Dev from '../images/undraw_dev_focus_b9xo.svg';
-import Resume from '../assets/BrookeSnellingsResume.pdf';
+import Resume from '../assets/resume.pdf';
 import { HireMe, LinkButton } from '../components/Button.js';
 import HireMePopup from '../components/HireMePopup.js';
 import { media } from '../MediaQueries';
