@@ -1,6 +1,6 @@
-# My Portfolio Site
+<h1 align="center"> My Portfolio Site </h1>
 
-## This is my personal portfolio. It is based on a Gatsby Template by [Milo Slekovic](https://www.linkedin.com/in/miloslekovic/), the ReadMe for which is below. It also includes a lovely illustration by Undraw.co.
+This is my personal portfolio. It is based on a Gatsby Template by [Milo Slekovic](https://www.linkedin.com/in/miloslekovic/), the ReadMe for which is below. It also includes a lovely illustration by Undraw.co.
 
 <h1 align="center">
   Portfolio website built in Gatsby
