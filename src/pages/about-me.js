@@ -92,14 +92,16 @@ class AboutMe extends React.Component {
               <p>
                 {' '}
                 Most recently, I was a Software Engineer on the instructional staff for Hack Reactor at Galvanize in
-                Austin, a modern school providing advanced technical training in an immersive setting. I graduated from
-                the University of Florida with a B.S. in Psychology in 2014, and my background is in the arts and
-                nonprofits, specifically theatre, mental health awareness advocacy, newborn adoption, and animal rescue.
-                I loved making a positive impact while delivering high-quality and compassionate service to clients, and
-                found I thrive when breaking down complex problems to arrive at creative, elegant solutions. I was drawn
-                to programming as another way to make life better for people. Technology is ingrained in our daily
-                lives, and I’m passionate about building thoughtfully designed and executed applications that create
-                intuitive and joyful user experiences for everyone.{' '}
+                Austin, a modern school providing advanced technical training in an immersive setting. I have a Bachelor
+                of Science in Psychology from the University of Florida, and my background is in the arts and
+                nonprofits. While I was in college, I started a theatre company with some friends called Ghostlight and
+                worked as a theatre stage manager. After college, I was the birthmother coordinator/advocate for an
+                adoption agency, a mental health awareness advocate at the National Alliance on Mental Illness, and
+                office manager for an animal rescue. I loved making a positive impact while delivering high-quality and
+                compassionate service to clients, and found I thrive when breaking down complex problems to arrive at
+                creative, elegant solutions. I was naturally drawn to programming as another way to make life better for
+                people. Technology is ingrained in our daily lives, and I’m passionate about building thoughtfully
+                designed and executed applications that create intuitive and joyful user experiences for everyone.{' '}
               </p>
               <p>
                 When I'm not coding, I like to volunteer my time as an organizer of the Hack Reactor Women's Mentorship
